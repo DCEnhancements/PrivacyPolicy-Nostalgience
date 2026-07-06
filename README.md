@@ -9,7 +9,7 @@ The app does not intentionally collect personal data beyond the technical inform
 - Core downloads, update checks, app resource downloads, and support requests may send normal technical request metadata to DC Enhancements infrastructure, such as IP address, user agent, requested resource, timestamps, and error information.
 - Bluetooth data is used for compatible controller/gamepad connection. Bluetooth scan is not used to derive physical location.
 - Microphone access is used only when an emulator core or game feature requires microphone input.
-- Google Play may process purchase, entitlement, installer, and Play Integrity data for paid app access, premium unlocks, and anti-tamper verification.
+- Google Play may process the one-time app purchase, installer source, app integrity, and anti-tamper verification data for paid app distribution. Nostalgience does not use ads, in-app purchases, subscriptions, or premium unlock products.
 
 ## Permissions
 
@@ -26,12 +26,11 @@ The app may request the following Android permissions to provide its features:
 
 ## Third-Party Services
 
-The app integrates the following third-party services or SDK categories:
-- **Google Play Billing** — Used only for Google Play purchase or entitlement handling where paid access or premium unlocks are enabled. Google processes payments; DC Enhancements does not receive full payment card details.
+The app does not intentionally rely on third-party analytics, ads, or payment SDKs beyond the services required to distribute the app through Google Play.
 
 ## Ads and In-App Purchases
 
-The app may offer in-app purchases. Payment processing is handled by Google Play or another configured payment provider rather than by us directly.
+The app does not include advertising and does not process in-app purchases unless this policy is updated to state otherwise.
 
 ## Data Retention
 
@@ -57,9 +56,9 @@ Bluetooth permissions are used to detect and connect compatible controllers and 
 
 When you use features that download emulator cores, compatibility assets, update information, or app resources, Nostalgience may contact DC Enhancements servers such as dcenhancements.com. Server logs may contain normal technical request metadata such as IP address, user agent, requested file, timestamps, and error status for security, delivery, abuse prevention, and troubleshooting.
 
-## Google Play Billing and Play Integrity
+## One-Time Google Play Purchase and Play Integrity
 
-If Nostalgience is distributed as a paid app or uses premium unlocks, purchase handling is performed through Google Play. Production builds may use Google Play Billing and Play Integrity to verify legitimate installation and protect the app against tampering or unauthorized distribution. DC Enhancements does not receive your full payment card details; Google handles payment processing.
+Nostalgience is distributed as a paid base app / one-time purchase through Google Play. The app does not include advertising, in-app purchases, subscriptions, premium unlock products, or third-party ad SDKs. Google handles the Play Store purchase transaction. Production builds may use the Play installer source, trusted app signature checks, and Google Play Integrity to help verify legitimate installation and protect against tampering or unauthorized distribution.
 
 ## Legal Game Ownership
 
